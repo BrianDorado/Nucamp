@@ -1,0 +1,39 @@
+body {
+  
+    background: linear-gradient(to bottom, #fcecfc 0%, #fba6e1 42%, #fba6e1 42%, #fd89d7 56%, #ff7cd8 100%);
+    background: linear-gradient(to bottom, #fac695 0%, #f5ab66 47%, #ef8d31 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: 'Philosopher',
+    sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 17.5%;
+}
+
+.audio-holder {
+    margin-top: 10vh;
+}
+
+
+
+.nav-list  {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: space-between;
+    
+}
+
+.navlist a :visited {
+    color: black
+}
